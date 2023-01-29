@@ -1,0 +1,3 @@
+// ৫. ভেরিয়েবল এর মান কিভাবে চেইঞ্জ করে বা আপডেট করে।
+
+// Just reference the variable inside the function; no magic, just use it's name. If it's been created globally, then you'll be updating the global variable. You can override this behaviour by declaring it locally using var, but if you don't use var, then a variable name used in a function will be global if that variable has been declared globally. That's why it's considered best practice to always declare your variables explicitly with var. Because if you forget it, you can start messing with globals by accident. It's an easy mistake to make. But in your case, this turn around and becomes an easy answer to your question.
